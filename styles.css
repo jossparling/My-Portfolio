@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #000000; 
+    --secondary-color: #fffaff;
+}
+
+body {
+    font-family: Apercu Pro,-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    color: var(--primary-color);
+}
+
+/* header / nav bar styles */
+
+header {
+   padding: 20px 35px;
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+   top: 0;
+   z-index: 9999;
+}
+
+header h1 {
+    font-weight: normal;
+    margin: 0;
+    font-size: 26px;
+    color: var(--primary-color)}
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+/* footer styles */
+
+footer {
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px 35px;
+   width: 100%;
+}
+
+footer h2 {
+    color: var(--primary-color);
+    font-size: 16px;
+    margin: 0;
+}
+
+/* style all section tags */
+
+section {
+    padding: 80px;
+}
+
+/* hero style */
+
+.hero {
+    background-image: url(./hello.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero h2 {
+    color: var(--secondary-color);
+    font-size: 26px;
+}
+
+/* section style */
+
+.section-title {
+    font-size: 16px;
+    border-bottom: 1px solid;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.bio {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.7;
+}
+
+.projects {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.7;
+}
+
+.projects img {
+    width: 100%;
+}
+
+.contact {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.7;
+}
+
