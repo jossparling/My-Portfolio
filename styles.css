@@ -57,6 +57,13 @@ header nav ul li a {
     font-weight: 400;
 }
 
+header nav ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 /* footer styles */
 
 footer {
@@ -135,6 +142,10 @@ section {
     margin-right: auto;
 }
 
+#projects img:hover {
+    opacity: .25;
+}
+
 #projects img {
     width: 50%;
     border-color: #000000;
@@ -161,6 +172,10 @@ section {
     font-size: 16px;
 }
 
+#resume img:hover {
+    opacity: .25;
+}
+
 #resume img {
     width: 35%;
     border-color: #000000;
@@ -171,6 +186,15 @@ section {
     margin-right: auto;
 }
 
+#contact img:hover {
+    opacity: .25;
+}
+#contact img {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* utlities */
 
 .flex-row {
