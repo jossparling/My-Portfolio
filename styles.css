@@ -82,7 +82,7 @@ section {
 /* hero style */
 
 .hero {
-    background-image: url(./hello.jpg);
+    background-image: url(./herowallpaper.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -131,6 +131,13 @@ section {
     font-size: 16px;
 }
 
+#bio img {
+    width: 35%;
+    border-color: #000000;
+    border-radius: 25px;
+    border: var(--primary-color) solid 1px;
+}
+
 #projects {
     text-align: center;
     font-size: 16px;
@@ -145,7 +152,7 @@ section {
     width: 100%;
     border-color: #000000;
     border-radius: 25px;
-    border: var(--primary-color) solid 2px;
+    border: var(--primary-color) solid 1px;
 }
 
 
