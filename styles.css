@@ -32,7 +32,7 @@ header h1 {
     font-weight: normal;
     margin: 0;
     font-size: 26px;
-    color: var(--primary-color)}
+    color: var(--primary-color)
 }
 
 header a {
@@ -100,7 +100,7 @@ section {
 /* section style */
 
 .section-title {
-    font-size: 16px;
+    font-size: 26px;
     border-bottom: 1px solid;
     color: var(--primary-color);
     padding-bottom: 20px;
@@ -109,30 +109,118 @@ section {
     width: 50%;
 }
 
-.bio {
-    text-align: center;
+.section h2 {
     font-size: 16px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+#bio {
+    text-align: center;
+    font-size: 26px;
     margin: 0 auto;
     width: 80%;
     line-height: 1.7;
 }
 
-.projects {
+#bio p {
+    font-size: 16px;
+}
+
+#projects {
     text-align: center;
     font-size: 16px;
     margin: 0 auto;
     width: 80%;
     line-height: 1.7;
+    display: flex;
+    flex-direction: column;
 }
 
-.projects img {
+#projects img {
     width: 100%;
+    border-color: #000000;
+    border-radius: 25px;
+    border: var(--primary-color) solid 2px;
 }
 
-.contact {
-    font-size: 16px;
+
+#contact {
+    font-size: 26px;
     margin: 0 auto;
     width: 80%;
     line-height: 1.7;
 }
 
+.contact-info {
+    text-align: center;
+    font-size: 16px;
+}
+
+#resume h3 {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* utlities */
+
+.flex-row {
+    display: flex;
+}
+
+/* media queries for smaller screens */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+        flex: 100%;
+    }
+}
+
+/* media query for mobile devices */
+@media screen and (max-width: 575px) {
+    .section-title {
+        width: 95%;
+    }
+}

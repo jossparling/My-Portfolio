@@ -2,14 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./styles.css">
         <title>Josie Sparling</title>
     </head>
     <body>
         <!-- navigation tags - block level element -->
         <header>
             <h1>
-                <a href="">Josie Sparling</a>
+                <a href="">josie sparling</a>
             </h1>
             <nav>
                 <ul>
@@ -36,10 +36,12 @@
         </section>
         
         <!-- bio -->
-        <section class="bio">
+        <section id="bio">
+        <div class="flex-row">
             <h2 class="section-title">
                 Bio
             </h2>
+        </div>
             <p>
                 German girl based in Austin taking the web by storm one domain at a time.
             </p>
@@ -47,36 +49,44 @@
         <!-- end bio -->
 
         <!-- projects -->
-        <section class="projects">
+        <section id="projects">
+        <div class="flex-row">
             <h2 class="section-title">
                 Projects
             </h2>
+        </div>
+
             <img src="./run-buddy.png" alt="snapshot of the run buddy landing page" />
-            <h3 class="project-title">
-                run-buddy
+            <h3>
+                <a href="https://jossparling.github.io/run-buddy/">run-buddy</a>
             </h3>
-            <p>HTML/CSS</p>
         </section>
         <!-- end projects -->
 
         <!-- resume -->
-        <section class="resume">
+        <section id="resume">
+        <div class="flex-row">
             <h2 class="section-title">
                 Resume
             </h2>
+        </div>
+            <h3>
+            <a href="./Sparling, Josie Resume 2021.pdf">Josie Sparling Resume</a>
+            </h3>
         </section>
 
         <!-- contact -->
 
-        <section class="contact">
+        <section id="contact">
+        <div class="flex-row">
             <h2 class="section-title">
                 Contact
             </h2>
-            <h3>Josie Sparling</h3>
-            <address>
-                Mobile: (512) 689-0300 </br>
+        </div>
+            <h3 class="contact-info">
+                Cell: (512) 689-0300 </br>
                 Email: <a href="mailto:jossparling@gmail.com">jossparling@gmail.com</a>
-            </address>
+            </h3>
         </section>
 
         <!-- footer -->
