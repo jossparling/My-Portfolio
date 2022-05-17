@@ -89,7 +89,7 @@ section {
 /* hero style */
 
 .hero {
-    background-image: url(./herowallpaper.jpg);
+    background-image: url(/assets/images/herowallpaper.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
